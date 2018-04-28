@@ -1,7 +1,7 @@
 import unittest
 import time
 from selenium import webdriver
-from selenium.webdriver.common.keys import keys
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 
 class shopping_cart(unittest.TestCase):
