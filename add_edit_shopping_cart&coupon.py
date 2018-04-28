@@ -14,7 +14,7 @@ class shopping_cart(unittest.TestCase):
         user = "admin"
         pwd = "nollywood"
         driver = self.driver
-        driver.maxmize_window()
+        driver.maximize_window()
         driver.get ("http://127.0.0.1:8000/")
         time.sleep(2)
 
